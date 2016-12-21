@@ -2,7 +2,8 @@
 **Obiettivo:**
 
 L’obiettivo di questa guida è quello di creare un bot per Facebook Messenger in Java. Questo Bot sarà supportato da funzioni di NLP (natural Language programming) grazie ad [API.ai](https://console.api.ai/api-client/).
-**Strumenti utilizzati: **
+
+**Strumenti utilizzati:**
 
 1.Ecpliple Mars 2.0
 
