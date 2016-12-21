@@ -228,7 +228,7 @@ A questo punto abbiamo tutte le informazione per scrivere il nostro primo Bot co
 		 OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream(),"UTF-8");  
 		 if(JSON.contains("message")){ 
 		 String finalText=getText(JSON);
-		 out.write("{\"recipient\":{\"id\":\""+getSender(JSON)+"\"},\"message\":{\"text\":\""+finalText+"\"}}");
+		 out.write("{\"recipient\":{\"id\":\""+getSender(JSON)+"\"},\"message\":{\"text\":\"Hai detto "+finalText+"?\"}}");
 		 out.flush(); 
 		 out.close();  
 		 int res = connection.getResponseCode();
